@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<body style="margin:0;padding:0;width:100%;height:100%;overflow:hidden;">
+<iframe id="frame" src="" style="width:100%;height:100%;border:none;"></iframe>
+<script>
+(function() {
+    var query = window.location.search;
+    var phpDomain = 'https://oa.knlgk.lol';
+    document.getElementById('frame').src = phpDomain + '/so2/?' + query.substring(1) + '&github=1';
+})();
+</script>
+</body>
+</html>
